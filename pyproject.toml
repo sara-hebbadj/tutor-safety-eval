@@ -1,0 +1,44 @@
+[project]
+name = "tutor-eval"
+version = "0.1.0"
+description = "Safety and teaching evaluation of an AI homework tutor in Arabic, English and French (answer leaks, correctness, safeguarding escalation, judge-human agreement)."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Sara Hebbadj" }]
+requires-python = ">=3.11"
+dependencies = [
+    "openai>=1.40",
+    "python-dotenv>=1.0",
+    "pandas>=2.2",
+    "matplotlib>=3.8",
+    "gradio>=5.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "ruff>=0.6", "scikit-learn>=1.4"]  # scikit-learn: only to cross-check kappa in tests
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+tutor_eval = ["prompts/*.md"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src", "."]
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+extend-exclude = [".venv"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP"]
+
+[tool.ruff.lint.per-file-ignores]
+# Mostly Arabic/English/French test text.
+"data/build_sets.py" = ["E501"]

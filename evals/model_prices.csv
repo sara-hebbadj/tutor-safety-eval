@@ -1,0 +1,9 @@
+# US$ per million tokens, from https://openrouter.ai/api/v1/models on 2026-10-08. Used only for the
+# worst-case estimate before a model has been run; real costs come from OpenRouter's usage.cost.
+model_id,input_usd_per_mtok,output_usd_per_mtok
+openai/gpt-6-luna,0.10,0.50
+anthropic/claude-haiku-5.5,0.10,0.50
+anthropic/claude-sonnet-5.5,2.00,10.00
+google/gemini-3.8-flash,0.75,3.75
+deepseek/deepseek-v4.1-flash,0.30,1.20
+z-ai/glm-5.3-flash,0.15,0.50

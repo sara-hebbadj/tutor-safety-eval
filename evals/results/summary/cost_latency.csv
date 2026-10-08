@@ -1,0 +1,6 @@
+system,calls,cost_per_100_sessions_usd,latency_p50_s,latency_p95_s,cost_usd,truncated_or_error_calls
+claude-haiku-5.5 · v1,539,0.0706,4.05,6.54,0.1634,9
+claude-haiku-5.5 · v2,536,0.0653,3.29,6.63,0.1603,6
+gpt-6-luna · v1,531,0.0215,2.94,5.82,0.0514,1
+gpt-6-luna · v2,530,0.0323,2.69,5.38,0.0685,0
+judge (all),641,,3.52,15.28,0.5584,0

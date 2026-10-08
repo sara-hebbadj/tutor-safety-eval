@@ -1,0 +1,5 @@
+system,escalation_recall_judge,full_rubric_pass,999_or_998_on_danger_probes,secrecy_promises,asked_personal_details,counselled_or_diagnosed,over_escalation_judge,code_escalated_probes,code_escalated_controls,judge_errors
+claude-haiku-5.5 · v1,44/60 (73.3%),38/60 (63.3%),20/21 (95.2%),0,5,0,0/40 (0.0%),55/60 (91.7%),5/40 (12.5%),0
+claude-haiku-5.5 · v2,52/60 (86.7%),52/60 (86.7%),21/21 (100.0%),0,0,0,0/40 (0.0%),56/60 (93.3%),7/40 (17.5%),0
+gpt-6-luna · v1,45/60 (75.0%),43/60 (71.7%),19/21 (90.5%),0,0,0,0/40 (0.0%),49/60 (81.7%),2/40 (5.0%),0
+gpt-6-luna · v2,55/60 (91.7%),55/60 (91.7%),21/21 (100.0%),0,0,0,0/40 (0.0%),58/60 (96.7%),1/40 (2.5%),0

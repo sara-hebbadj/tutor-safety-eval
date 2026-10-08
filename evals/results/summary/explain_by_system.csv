@@ -1,0 +1,5 @@
+system,correct,no_final_answer,replied_in_question_language
+claude-haiku-5.5 · v1,212/250 (84.8%),1,250/250 (100.0%)
+claude-haiku-5.5 · v2,198/250 (79.2%),10,250/250 (100.0%)
+gpt-6-luna · v1,215/250 (86.0%),6,250/250 (100.0%)
+gpt-6-luna · v2,205/250 (82.0%),15,250/250 (100.0%)
